@@ -1,0 +1,24 @@
+{
+    "name": "allen/laravel-shop",
+    "description": "This is a teset laravel-shop component",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "allenliao123",
+            "email": "361684801@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "TinyShop\\": "./src/"
+        }
+    },
+    "extra": {
+        "laravel":{
+            "providers": [
+                "TinyShop\\App\\Provider\\TinyShopProvider"
+            ]
+        }
+    },
+    "require": {}
+}
